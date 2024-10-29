@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import CrossClimbGame from './pages/CrossClimbGame';
 import CrossClimbGame1 from './pages/CrossClimbGame1';
 import CrossClimbGame2 from './pages/CrossClimbGame2';
