@@ -5,7 +5,7 @@ import '../pages/CrossClimbGame.css'; // Ensure correct path to the CSS file
 
 function CrossClimbGame() {
   const correctAnswers = [
-    [['s', 's', 'l', '', ''], ['S', 'S', 'L', '', ''], ['t', 'l', 's', '', ''], ['T', 'L', 'S', '', '']],
+    [['h', 't', 't', 'p', 's'], ['H', 'T', 'T', 'P', 'S'], ['H', 't', 't', 'p', 's'], ['', '', '', '', '']],
     [['h', 'a', 's', 'h', ''], ['H', 'A', 'S', 'H', ''], ['H', 'a', 's', 'h', '']],
     [['g', 'r', 'a', 'p', 'h'], ['G', 'R', 'A', 'P', 'H'], ['G', 'r', 'a', 'p', 'h']],
     [['m', 'a', 'c', 'O', 'S'], ['M', 'A', 'C', 'O', 'S'], ['m', 'a', 'c', 'o', 's']]

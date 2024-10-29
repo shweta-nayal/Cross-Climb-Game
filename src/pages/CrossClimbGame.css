@@ -116,3 +116,28 @@ body {
 }
 
 
+.correct {
+  background-color: #a4de02; /* Green for correct answers */
+  color: #ffffff;
+  border-color: #007a00;
+}
+
+.incorrect {
+  background-color: #ff6b6b; /* Red for incorrect answers */
+  color: #ffffff;
+  border-color: #b00000;
+}
+
+/* Optional styling for error message */
+.error-message {
+  color: #ff6347;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  animation: fadeOut 4s forwards;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
