@@ -1,0 +1,118 @@
+body {
+    background-color: #79acd8 !important;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px !important;
+    /* Ensure a gap from the top */
+}
+
+.grid-container {
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 30px 40px 10px rgba(0, 0, 0, 0.2) !important;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: rgb(22, 58, 85) !important;
+    max-width: 90% ;
+    margin-top: 20px;
+}
+
+.row-container {
+    display: flex;
+    justify-content: center;
+}
+
+.input-box {
+    width: 60px !important;
+    /* Corrected box size */
+    height: 65px !important;
+    /* Corrected height */
+    font-size: 26px !important;
+    /* Larger text for clarity */
+    text-align: center;
+    border: 4px solid #5e9ea9 !important;
+    border-radius: 4px;
+    margin: 0 5px;
+    outline: none;
+    transition: border-color 0.3s, border-width 0.3s;
+}
+
+.input-box:hover {
+    border: 7px solid#007bff !important;
+    /* On hover, change to a different color */
+}
+
+.input-box:focus {
+    border: 4px solid #007bff !important;
+    background-color: #f0f8ff !important;
+    /* Background color change on focus */
+}
+
+.finish-button {
+    margin-top: 30px;
+    background-color: #075f2e !important;
+    border: 4px solid #043206 !important;
+    color: white !important;
+    font-size: 20px !important;
+    padding: 10px 20px !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.finish-button:hover {
+    background-color: #136e68 !important;
+    border: 8px solid #005353 !important;
+}
+/* 
+.error-message {
+    color: red;
+    font-size: 18px;
+    margin-top: 20px;
+} */
+
+.question-box {
+    background-color: #fff;
+    border: 4px solid #121212;
+    border-radius: 8px;
+    padding: 7px;
+    margin-top: 20px;
+    width: 60%;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 20px 40px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+.error-popup {
+    position: fixed;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 0, 0, 0.9);
+    /* Red background for error */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999;
+    text-align: center;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.error-popup.hide {
+    opacity: 0;
+    pointer-events: none;
+    /* Disable interactions when hidden */
+}
+
+
