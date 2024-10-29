@@ -141,3 +141,36 @@ body {
   100% { opacity: 0; }
 }
 
+
+.correct {
+  border: 2px solid #28a745; /* Green border for correct answers */
+  background-color: #e6f9ea;
+  color: #333;
+}
+
+.incorrect {
+  border: 2px solid #dc3545; /* Red border for incorrect answers */
+  background-color: #f9e6e6;
+  color: #333;
+}
+
+/* Popup styling */
+.popup-message {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #ffdd57;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  font-size: 1rem;
+  font-weight: bold;
+  animation: fadeOut 4s forwards;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}
+

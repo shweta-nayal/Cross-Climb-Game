@@ -65,3 +65,25 @@
 }
 
 
+.game-guide {
+  max-width: 80vw;
+  text-align: left;
+  background-color: #d9d7d7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+  margin-top: 40px;
+}
+
+.game-guide h3 {
+  color: #ee2805;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.game-guide p {
+  font-size: 1rem;
+  line-height: 1.4;
+  margin: 5px 0;
+}
+

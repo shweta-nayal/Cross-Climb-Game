@@ -31,9 +31,20 @@ function HomePage() {
         onChange={(e) => setTeamName(e.target.value)}
         className="team-input"
       />
+
       <button onClick={handleStart} className="start-button">
         Start
       </button>
+
+      <div className="game-guide">
+                <h3>How to Play : </h3>
+                <p><strong>1. Start the Game:</strong> Enter your Team Name and click Start.</p>
+                <p><strong>2. Submit Answers:</strong> Once all answers are complete, click Finish to submit. All answers must be correct for submission to succeed; otherwise, an error message will prompt you to re-check your answers.</p>
+                <p><strong>3. Advance Levels:</strong> Complete each level successfully to move on to the next. Your total time from start will be tracked.</p>
+                <p><strong>4. Victory Screen:</strong> Upon completing the final level, you'll see a congratulatory message with your team name and total time taken.</p>
+                <p><strong>5. Play Again:</strong> Click Play Again to restart the game and try to beat your previous time..!!</p>
+      </div>
+
     </div>
   );
 }
